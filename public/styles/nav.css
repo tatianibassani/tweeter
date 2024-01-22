@@ -1,0 +1,58 @@
+nav {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: #4056A1;
+    font-family: bungee;
+    color: #FFFFFF;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+ }
+ 
+ @media all and (max-width: 1054px) {
+   nav {
+     height: 120px;
+     font-family: bungee;
+     color: #FFFFFF;
+     padding-right: 1.5em;
+     padding-left: 1.5em;
+     padding-top: 1.5em;
+     background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+     background-color: inherit;
+   }
+ };
+ 
+ .left {
+   float: left
+ }
+ 
+ .right {
+   float: right;
+   font-family: sans-serif;
+   height: 60px;
+   padding-right: 1.5em;
+   display: flex;
+   flex-flow: column;
+ }
+ 
+ .arrow-down {
+   text-align: center;
+   color: red;
+ }
+ 
+ .bold {
+   font-weight: bold;
+ }
+ 
+ .tweet-button {
+   font-family: bungee;
+ }
+ 
+ 
+ /*120 pixels in height
+ Full width of the viewport
+ #4056A1 as its default background colour
+ #FFFFFF as its default font colour
+ <span> within the <nav> uses Bungee as its default font-family
+ 1.5ems of space on the right and left between the content and the edges*/
