@@ -1,0 +1,30 @@
+.header {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f4f1ec;
+    font-family: sans-serif;
+    margin-top: 60px;
+  }
+  
+  .avatar {
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+    text-align: center;
+    width: 55%;
+    margin-top: 16%;
+  }
+  
+  .image {
+    margin-top: 10px;
+  }
+  
+  @media all and (max-width: 1054px) {
+    .avatar {
+      width: inherit;
+      margin-top: 0;
+    }
+    .header {
+      margin-top: 120px;
+    }
+  };
